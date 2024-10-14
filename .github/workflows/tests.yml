@@ -2,7 +2,7 @@ name: Tests
 
 # Only run on branches (e.g. not tags)
 on:
-  workflow_disptach:
+  workflow_dispatch:
   push:
     branches:
       - "*"
