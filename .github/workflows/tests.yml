@@ -58,7 +58,7 @@ jobs:
 
   test-bsd:
     name: Test on FreeBSD
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04-ppc64le
 
     steps:
       - name: Checkout code
